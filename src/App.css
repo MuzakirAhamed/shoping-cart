@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Rubik:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    height: 120px;
+    background-color: rgb(93, 93, 232);
+}
+
+.logo-left-part {
+    /* background-color: aqua; */
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.logo-right-part {
+    background-color: yellow;
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    padding: 5px;
+}
+
+.logo {
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+
+.cart {
+    height: 40px;
+    /* margin-right: 20px; */
+}
+
+.badge {
+    padding: 0 3px;
+    /* background-color: aqua; */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    top: -15px;
+    right: 10px;
+    width: 0.7rem;
+}
+
+.navbar-right {
+    margin-right: 20px;
+}
+
+.products-box {
+    display: flex;
+
+}
+
+.filter-part {
+    flex-basis: 25%;
+    height: fit-content;
+    border: 1px solid black;
+    box-shadow: 5px 5px gray;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form-check-input {
+    border: 1px solid black;
+}
+
+.form-check {
+    height: 30px;
+}
+
+.card-box {
+    flex-basis: 60%;
+    height: fit-content;
+    margin: auto;
+}
+
+.card-box:hover {
+    box-shadow: 10px 10px grey;
+}
+
+.card-body {
+    display: inline-block;
+}
+
+.card-title {
+    cursor: pointer;
+}
+
+.products-list {
+    margin: 10px;
+    width: 75%;
+}
+
+.card {
+    height: 300px;
+}
+
+.img-fluid {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 2rem;
+}
+
+@media screen and (max-width:480px) {
+    .filter-part {
+        height: 500px;
+    }
+
+    .form-check {
+        font-size: small;
+    }
+
+    .img-fluid {
+        height: 250px;
+    }
+    .card{
+        height: fit-content;
+    }
+    .sub-heading{
+        text-align: center;
+        height: fit-content;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+}
